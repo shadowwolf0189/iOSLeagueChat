@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F4C4321B333436009C72BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C4311B333436009C72BD /* main.m */; };
+		80F4C4351B333436009C72BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C4341B333436009C72BD /* AppDelegate.m */; };
+		80F4C4381B333436009C72BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C4371B333436009C72BD /* ViewController.m */; };
+		80F4C43B1B333436009C72BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F4C4391B333436009C72BD /* Main.storyboard */; };
+		80F4C43D1B333436009C72BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F4C43C1B333436009C72BD /* Assets.xcassets */; };
+		80F4C4401B333436009C72BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F4C43E1B333436009C72BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80F4C42D1B333436009C72BD /* iOSLeagueChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLeagueChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F4C4311B333436009C72BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80F4C4331B333436009C72BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80F4C4341B333436009C72BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80F4C4361B333436009C72BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80F4C4371B333436009C72BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80F4C43A1B333436009C72BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80F4C43C1B333436009C72BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80F4C43F1B333436009C72BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80F4C4411B333436009C72BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F4C42A1B333436009C72BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F4C4241B333436009C72BD = {
+			isa = PBXGroup;
+			children = (
+				80F4C42F1B333436009C72BD /* iOSLeagueChat */,
+				80F4C42E1B333436009C72BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80F4C42E1B333436009C72BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F4C42D1B333436009C72BD /* iOSLeagueChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F4C42F1B333436009C72BD /* iOSLeagueChat */ = {
+			isa = PBXGroup;
+			children = (
+				80F4C4331B333436009C72BD /* AppDelegate.h */,
+				80F4C4341B333436009C72BD /* AppDelegate.m */,
+				80F4C4361B333436009C72BD /* ViewController.h */,
+				80F4C4371B333436009C72BD /* ViewController.m */,
+				80F4C4391B333436009C72BD /* Main.storyboard */,
+				80F4C43C1B333436009C72BD /* Assets.xcassets */,
+				80F4C43E1B333436009C72BD /* LaunchScreen.storyboard */,
+				80F4C4411B333436009C72BD /* Info.plist */,
+				80F4C4301B333436009C72BD /* Supporting Files */,
+			);
+			path = iOSLeagueChat;
+			sourceTree = "<group>";
+		};
+		80F4C4301B333436009C72BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F4C4311B333436009C72BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F4C42C1B333436009C72BD /* iOSLeagueChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F4C4441B333436009C72BD /* Build configuration list for PBXNativeTarget "iOSLeagueChat" */;
+			buildPhases = (
+				80F4C4291B333436009C72BD /* Sources */,
+				80F4C42A1B333436009C72BD /* Frameworks */,
+				80F4C42B1B333436009C72BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLeagueChat;
+			productName = iOSLeagueChat;
+			productReference = 80F4C42D1B333436009C72BD /* iOSLeagueChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F4C4251B333436009C72BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stephen Vernyi";
+				TargetAttributes = {
+					80F4C42C1B333436009C72BD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 80F4C4281B333436009C72BD /* Build configuration list for PBXProject "iOSLeagueChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80F4C4241B333436009C72BD;
+			productRefGroup = 80F4C42E1B333436009C72BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F4C42C1B333436009C72BD /* iOSLeagueChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80F4C42B1B333436009C72BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F4C4401B333436009C72BD /* LaunchScreen.storyboard in Resources */,
+				80F4C43D1B333436009C72BD /* Assets.xcassets in Resources */,
+				80F4C43B1B333436009C72BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F4C4291B333436009C72BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F4C4381B333436009C72BD /* ViewController.m in Sources */,
+				80F4C4351B333436009C72BD /* AppDelegate.m in Sources */,
+				80F4C4321B333436009C72BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80F4C4391B333436009C72BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F4C43A1B333436009C72BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80F4C43E1B333436009C72BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F4C43F1B333436009C72BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80F4C4421B333436009C72BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80F4C4431B333436009C72BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80F4C4451B333436009C72BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSLeagueChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spielpark.steve.iOSLeagueChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80F4C4461B333436009C72BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSLeagueChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spielpark.steve.iOSLeagueChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F4C4281B333436009C72BD /* Build configuration list for PBXProject "iOSLeagueChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F4C4421B333436009C72BD /* Debug */,
+				80F4C4431B333436009C72BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F4C4441B333436009C72BD /* Build configuration list for PBXNativeTarget "iOSLeagueChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F4C4451B333436009C72BD /* Debug */,
+				80F4C4461B333436009C72BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F4C4251B333436009C72BD /* Project object */;
+}
